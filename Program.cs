@@ -65,12 +65,12 @@ namespace Итоговый_проект
             }
             static (string Name, string SurName, int Age, string PetIs, string[] PetNames, string[] Colors) EnterUser()
             {
-                (string Name, string LastName, int Age, string PetIs, string[] PetNames, string[] Colors) User;
+                (string Name, string SurName, int Age, string PetIs, string[] PetNames, string[] Colors) User;
                 Console.WriteLine("Введите Ваше имя");
                 User.Name = Console.ReadLine();
 
                 Console.WriteLine("Введите Вашу фамилию");
-                User.LastName = Console.ReadLine();
+                User.SurName = Console.ReadLine();
 
                 string Age;
                 int intage;
